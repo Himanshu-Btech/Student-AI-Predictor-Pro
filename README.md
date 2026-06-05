@@ -22,3 +22,45 @@ This project is a Machine Learning-based system that predicts student performanc
 ---
 
 ## 📂 Project Structure
+- dataset/ → Contains dataset files  
+- model/ → Contains trained ML model files  
+- app.py → Main Python application file  
+- README.md → Project documentation  
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Himanshu-Btech/Student-AI-Predictor-Pro.git
+pip install -r requirements.txt
+python app.py
+
+---
+
+🔮 Future Improvements
+-Improve model accuracy
+-Add web interface using Flask or Streamlit
+-Deploy the project online
+-Add real-time prediction system
+-Improve UI/UX
+
+---
+
+📊 Project Goal
+
+-The goal of this project is to understand how machine learning can be used to predict student performance and build practical AI-based solutions.
+
+---
+
+👨‍💻 Author
+
+-Himanshu Rajak
+-Aspiring AI/ML Engineer
+
+---
+
+⭐ Support
+
+-If you like this project, please give it a star ⭐ on GitHub
