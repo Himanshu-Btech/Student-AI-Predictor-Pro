@@ -36,6 +36,7 @@ This project is a Machine Learning-based system that predicts student performanc
 git clone https://github.com/Himanshu-Btech/Student-AI-Predictor-Pro.git
 pip install -r requirements.txt
 python app.py
+```
 
 ## 🔮 Future Improvements
 
