@@ -1,0 +1,4 @@
+__pycache__/
+venv/
+prediction_history.csv
+accuracy.txt

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>
+
+         Student Predictor 
+
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <div class="container">
+
+        <h1>
+
+            🎓 AI Student Predictor
+
+        </h1>
+
+
+        <div id="subjects">
+
+        </div>
+
+
+        <button id="addBtn">
+
+            + Add Subject
+
+        </button>
+
+
+        <h3 id="average">
+
+            Average Marks : 0
+
+        </h3>
+
+
+        <input id="study" placeholder="Study Hours">
+
+        <input id="attendance" placeholder="Attendance %">
+
+        <input id="previous" placeholder="Previous Marks">
+
+        <input id="assignment" placeholder="Assignments Completed">
+
+
+        <button id="predictBtn">
+
+            Predict Score
+
+        </button>
+
+
+        <div class="loader" id="loader">
+
+        </div>
+
+
+        <h2 id="result">
+
+        </h2>
+
+
+        <div class="dashboard">
+
+            <div class="card">
+
+                <h3>
+
+                    Predictions
+
+                </h3>
+
+                <p id="totalPredictions">
+
+                    0
+
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>
+
+                    Average Prediction
+
+                </h3>
+
+                <p id="averagePrediction">
+
+                    0
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <canvas id="chart">
+
+        </canvas>
+
+
+        <div id="history">
+
+            <h2>
+
+                Prediction History
+
+            </h2>
+
+            <ul id="historyList">
+
+            </ul>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

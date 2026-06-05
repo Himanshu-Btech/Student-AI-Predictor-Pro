@@ -1,0 +1,337 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: Arial;
+
+}
+
+body {
+
+    background: #050505;
+
+    overflow-x: hidden;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding: 40px;
+
+    min-height: 100vh;
+
+}
+
+.background {
+
+    position: fixed;
+
+    width: 100%;
+
+    height: 100%;
+
+    background:
+
+        linear-gradient(45deg,
+            #000,
+            #0f172a,
+            #111,
+            #000);
+
+    background-size: 400% 400%;
+
+    animation: bg 10s infinite;
+
+    z-index: -1;
+
+}
+
+@keyframes bg {
+
+    0% {
+
+        background-position: 0% 50%;
+
+    }
+
+    50% {
+
+        background-position: 100% 50%;
+
+    }
+
+    100% {
+
+        background-position: 0% 50%;
+
+    }
+
+}
+
+.container {
+
+    width: 800px;
+
+    padding: 35px;
+
+    border-radius: 25px;
+
+    background:
+
+        rgba(255,
+            255,
+            255,
+            0.06);
+
+    backdrop-filter:
+
+        blur(20px);
+
+    box-shadow:
+
+        0 0 50px rgba(0,
+            255,
+            255,
+            0.15);
+
+    animation:
+
+        float 4s infinite ease-in-out;
+
+}
+
+@keyframes float {
+
+    50% {
+
+        transform:
+
+            translateY(-8px);
+
+    }
+
+}
+
+h1 {
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+}
+
+input {
+
+    width: 100%;
+
+    padding: 15px;
+
+    margin-top: 12px;
+
+    background:
+
+        rgba(255,
+            255,
+            255,
+            0.07);
+
+    border: none;
+
+    outline: none;
+
+    color: white;
+
+    border-radius: 15px;
+
+}
+
+button {
+
+    width: 100%;
+
+    padding: 15px;
+
+    margin-top: 15px;
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 15px;
+
+    font-size: 16px;
+
+    background:
+
+        linear-gradient(45deg,
+            #00d4ff,
+            #00ff99);
+
+    transition: .3s;
+
+}
+
+button:hover {
+
+    transform:
+
+        scale(1.03);
+
+}
+
+.subject {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-top: 15px;
+
+}
+
+.subject input {
+
+    flex: 1;
+
+}
+
+.remove {
+
+    width: 70px;
+
+    background: red;
+
+}
+
+.loader {
+
+    display: none;
+
+    margin: auto;
+
+    margin-top: 20px;
+
+    width: 50px;
+
+    height: 50px;
+
+    border:
+
+        5px solid #333;
+
+    border-top:
+
+        5px solid cyan;
+
+    border-radius: 50%;
+
+    animation:
+
+        spin 1s infinite linear;
+
+}
+
+@keyframes spin {
+
+    100% {
+
+        transform:
+
+            rotate(360deg);
+
+    }
+
+}
+
+.dashboard {
+
+    display: flex;
+
+    gap: 20px;
+
+    margin-top: 30px;
+
+}
+
+.card {
+
+    flex: 1;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    background:
+
+        rgba(255,
+            255,
+            255,
+            0.05);
+
+}
+
+#chart {
+
+    margin-top: 30px;
+
+    background:
+
+        rgba(255,
+            255,
+            255,
+            0.05);
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+}
+
+#history {
+
+    margin-top: 30px;
+
+}
+
+#history li {
+
+    list-style: none;
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    border-radius: 10px;
+
+    background:
+
+        rgba(255,
+            255,
+            255,
+            0.05);
+
+}
+
+#result {
+
+    margin-top: 25px;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    color: #00ffcc;
+
+    opacity: 0;
+
+    transition: .5s;
+
+}
