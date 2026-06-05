@@ -39,7 +39,7 @@ python app.py
 
 ---
 
-🔮 Future Improvements
+##🔮 Future Improvements
 -Improve model accuracy
 -Add web interface using Flask or Streamlit
 -Deploy the project online
@@ -48,19 +48,19 @@ python app.py
 
 ---
 
-📊 Project Goal
+##📊 Project Goal
 
 -The goal of this project is to understand how machine learning can be used to predict student performance and build practical AI-based solutions.
 
 ---
 
-👨‍💻 Author
+##👨‍💻 Author
 
 -Himanshu Rajak
 -Aspiring AI/ML Engineer
 
 ---
 
-⭐ Support
+##⭐ Support
 
 -If you like this project, please give it a star ⭐ on GitHub
