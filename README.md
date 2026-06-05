@@ -53,13 +53,6 @@ python app.py
 
 ---
 
-## 👨‍💻 Author
-
-- Himanshu Rajak
-- Aspiring AI/ML Engineer
-
----
-
 ## ⭐ Support
 
 - If you like this project, please give it a star ⭐ on GitHub
